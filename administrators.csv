@@ -1,0 +1,4 @@
+eID,Privilege_Level,Report_Access,Managed_Department
+E003,5,Yes,Receptionist
+E009,4,Yes,Housekeeper
+E013,3,No,Accountant

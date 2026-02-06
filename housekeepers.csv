@@ -1,0 +1,6 @@
+eID,Assigned_Rooms,Cleaning_Status,Shift_Area
+E002,"101-110",Cleaned,"Floor 1"
+E005,"111-120",Cleaned,"Floor 1"
+E007,"201-210",Not Cleaned,"Floor 2"
+E011,"211-220",Cleaned,"Floor 2"
+E014,"301-310",Not Cleaned,"Floor 3"

@@ -1,0 +1,16 @@
+eID,First_Name,MI,Last_Name,eSSN,eCategory,payRate
+E001,Michael,R,Davis,123-45-6789,Receptionist,18.50
+E002,Emily,S,Wilson,234-56-7890,Housekeeper,16.00
+E003,Robert,T,Anderson,345-67-8901,Administrator,25.00
+E004,Lisa,U,Taylor,456-78-9012,Accountant,22.00
+E005,James,V,Thomas,567-89-0123,Housekeeper,16.50
+E006,Maria,W,Moore,678-90-1234,Receptionist,18.00
+E007,William,X,Jackson,789-01-2345,Housekeeper,16.00
+E008,Patricia,Y,Martin,890-12-3456,Receptionist,19.00
+E009,Richard,Z,Lee,901-23-4567,Administrator,26.00
+E010,Linda,A,Perez,012-34-5678,Accountant,23.00
+E011,Charles,B,Thompson,123-45-6780,Housekeeper,16.50
+E012,Barbara,C,White,234-56-7891,Receptionist,18.50
+E013,Thomas,D,Harris,345-67-8902,Administrator,24.00
+E014,Susan,E,Sanchez,456-78-9013,Housekeeper,16.00
+E015,Joseph,F,Clark,567-89-0124,Receptionist,19.50

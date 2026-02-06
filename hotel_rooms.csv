@@ -1,0 +1,31 @@
+Room_Number,Room_Type,Num_Beds,Base_Rate,Assigned_Housekeeper,Housekeeper_Status
+101,Single,1,75.00,E002,Cleaned
+102,Double,2,120.00,E002,Cleaned
+103,Suite,2,200.00,E002,Cleaned
+104,Single,1,75.00,E002,Cleaned
+105,Double,2,125.00,E002,Cleaned
+106,Single,1,80.00,E002,Not Cleaned
+107,Suite,3,250.00,E002,Cleaned
+108,Double,2,120.00,E002,Cleaned
+109,Deluxe,2,175.00,E002,Cleaned
+110,Single,1,75.00,E002,Cleaned
+111,Double,2,120.00,E005,Cleaned
+112,Suite,2,210.00,E005,Cleaned
+113,Single,1,75.00,E005,Cleaned
+114,Double,2,125.00,E005,Cleaned
+115,Deluxe,3,180.00,E005,Not Cleaned
+116,Single,1,80.00,E005,Cleaned
+117,Suite,2,220.00,E005,Cleaned
+118,Double,2,120.00,E005,Cleaned
+119,Single,1,75.00,E005,Cleaned
+120,Presidential,4,400.00,E005,Cleaned
+201,Single,1,85.00,E007,Not Cleaned
+202,Double,2,130.00,E007,Not Cleaned
+203,Suite,2,225.00,E007,Cleaned
+204,Deluxe,3,190.00,E007,Not Cleaned
+205,Double,2,135.00,E007,Cleaned
+206,Suite,3,240.00,E011,Cleaned
+207,Single,1,85.00,E011,Cleaned
+208,Presidential,4,450.00,E011,Cleaned
+209,Deluxe,2,185.00,E011,Not Cleaned
+210,Double,2,130.00,E011,Cleaned
