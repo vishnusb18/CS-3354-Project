@@ -3,18 +3,23 @@
 ## Application Screenshots
 
 ### Guest Reservation Form (Before Submission)
+
 ![Guest Reservation Form](assets/guest_reservation_form_before.png)
 
 ### Guest Reservation Success
+
 ![Guest Reservation Success](assets/guest_reservation_success.png)
 
 ### Guest History Report (Before Check-In)
+
 ![Guest History Pre Check-In](assets/guest_history_pre_checkin.png)
 
 ### Check-In Success
+
 ![Check-In Success](assets/checkin_success.png)
 
 ### Guest History Report (After Check-In)
+
 ![Guest History Post Check-In](assets/guest_history_post_checkin.png)
 
 ## Project Structure
@@ -65,22 +70,27 @@ staysmart/
 ## 🍎 macOS Installation (Homebrew)
 
 ### 1️⃣ Install PHP
+
 ```bash
 brew install php
 ```
 
 ### 2️⃣ Verify SQLite is installed
+
 ```bash
 sqlite3 --version
 ```
 
 ### 3️⃣ Create the SQLite database
+
 From project root:
+
 ```bash
 sqlite3 sql/staysmart.db ".read sql/sqlite_create.sql"
 ```
 
 ### 4️⃣ Load your CSV data
+
 ```bash
 sqlite3 sql/staysmart.db ".read sql/sqlite_load.sql"
 ```
@@ -88,11 +98,13 @@ sqlite3 sql/staysmart.db ".read sql/sqlite_load.sql"
 ⚠ **Ignore header-row errors** — these occur because `.import` tries to insert the header line, which violates CHECK constraints. Actual data loads correctly.
 
 ### 5️⃣ Run the PHP Server
+
 ```bash
 php -S localhost:8000
 ```
 
 Open the site:
+
 ```
 http://localhost:8000
 ```
@@ -101,18 +113,21 @@ http://localhost:8000
 
 ## 🪟 Windows Installation (XAMPP or Standalone PHP)
 
-### 1️⃣ Install XAMPP  
+### 1️⃣ Install XAMPP
+
 Download: https://www.apachefriends.org
 
 OR install PHP directly via Windows Store.
 
 ### 2️⃣ Run database creation
+
 ```bat
 sqlite3 sql\\staysmart.db ".read sql/sqlite_create.sql"
 sqlite3 sql\\staysmart.db ".read sql/sqlite_load.sql"
 ```
 
 ### 3️⃣ If using XAMPP:
+
 Place your project in:
 
 ```
@@ -154,29 +169,36 @@ try {
 
 # 🧪 Testing the System
 
-### ✔ Make a reservation  
+### ✔ Make a reservation
+
 `guest_reservation.php`
 
-### ✔ Check room availability  
+### ✔ Check room availability
+
 `admin_room_availability.php`
 
-### ✔ Check-in / Check-out  
+### ✔ Check-in / Check-out
+
 `admin_checkin_checkout.php`
 
-### ✔ Make payments  
+### ✔ Make payments
+
 `payment_form.php`
 
-### ✔ Run reports  
+### ✔ Run reports
+
 `reports.php`
 
 ---
 
 ## ⚠ Troubleshooting
 
-### “CHECK constraint failed” during CSV import  
+### “CHECK constraint failed” during CSV import
+
 This is normal — the first row (header) fails. Data loads properly.
 
-### “no such table”  
+### “no such table”
+
 Run:
 
 ```bash
@@ -187,7 +209,10 @@ If empty → recreate DB and load again.
 
 ---
 
-## course pals made for students by studnets 
+## course pals made for students by studnets
+
 ## Checking Push and Pull.....
 
 ## Checking push and pull by lalith
+
+## Checking push and pull - Hansi
