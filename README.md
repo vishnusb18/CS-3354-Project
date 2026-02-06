@@ -186,3 +186,5 @@ sqlite3 sql/staysmart.db ".tables"
 If empty → recreate DB and load again.
 
 ---
+
+## course pals made for students by studnets 
